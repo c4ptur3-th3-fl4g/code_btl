@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicKetBox</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        header {
+            background-color: rgb(187, 84, 173);
+            color: #fff;
+            padding: 10px 5;
+            text-align: right;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .search-container {
+            display: flex;
+            align-items: left;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .search-box {
+            padding: 8px;
+            border: none;
+            outline: none;
+            width: 250px;
+        }
+        .search-button {
+            padding: 8px 15px;
+            background-color: #c9bc76;
+            color: #fff;
+            border: none;
+            border-radius: 0 20px 20px 0;
+            cursor: pointer;
+        }
+        body{
+            background-image: url('/img/back.jpg');
+            background-size: cover;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href='/img/logo.jpg'>
+</head>
+
+<body>
+    
+    <header>
+        <img src="/img/logo.jpg" style="height: 4%; width: 4%; border-radius: 20%; overflow: hidden; float: left;">
+        <br><div class="search-container">
+            <br>
+            <input type="text" class="search-box" placeholder="Search">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Dịch vụ</a></li>
+                <li><a href="#">Giới thiệu</a></li>
+                <li><a href="#">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Phần nội dung chính của trang web -->
+    <div>
+        <h2>Nội dung</h2>
+        <p>abcd</p>
+    </div>
+</body>
+</html>

@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background: url('img/back.jpg') no-repeat center center fixed; 
+  background: url('img/back.jpg'); 
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -17,23 +17,32 @@ body {
 }
 
 .login-box {
-  background: rgba(0, 0, 0, 0.8); /* Thêm độ trong suốt cho background của hộp đăng nhập */
-  padding: 30px; /* Tăng padding để làm cho ô login to ra chút */
+  background: rgba(0, 0, 0, 0.8); 
+  padding: 30px; 
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  width: 350px; /* Tăng kích thước của hộp đăng nhập */
+  width: 350px; 
   text-align: center;
 }
 
 .login-title {
   margin-bottom: 20px;
-  font-size: 30px; /* Tăng kích thước chữ */
+  font-size: 30px; 
 }
 
 .login-form input[type="text"],
 .login-form input[type="password"] {
-  width: 100%;
-  padding: 12px; /* Tăng padding cho các ô input */
+    width: 20px; 
+    padding: 12px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+  width: calc(100% - 24px);
+  padding: 10px;
   margin-bottom: 15px;
   border: none;
   border-radius: 4px;
@@ -74,18 +83,31 @@ body {
 }
 
 .login-button {
-  width: 100%;
-  padding: 12px; /* Tăng padding cho nút login */
-  background: #007BFF;
+  background-color: #0056b3;
+}
+
+.register-button {
+  background-color: #dabc14;
+}
+
+.login-button,
+.register-button {
+  margin: 7px;
+  width: 98%;
+  padding: 11px; 
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   color: white;
   font-size: 16px;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .login-button:hover {
-  background: #0056b3;
+  background-color: #012449;
+}
+.register-button:hover {
+  background-color: #8a7604
 }
 
 .separator {
@@ -123,8 +145,3 @@ body {
   background: #1da1f2;
 }
 
-footer {
-  margin-top: 20px;
-  font-size: 14px;
-  color: #aaa;
-}

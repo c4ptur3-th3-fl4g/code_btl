@@ -173,3 +173,35 @@ body{
 .register-btn:hover {
     background-color: #daa520;
 }
+.div1{
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 100%;
+    background-color: none;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}    
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service{
+    background-color: none;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    border-radius: 5px;
+    flex: 1 1 20%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    color: white;
+    text-align: left;
+    height: 300px;
+}
+p.service{
+    margin-left: 30px;
+}

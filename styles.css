@@ -4,6 +4,15 @@
     --bg-primary: #23232e;
     --bg-secondary: #141418;
 }
+
+body{
+    background-image: url('img/back.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    flex-direction: column;
+}
+
 .header {
     background-color: rgb(187, 84, 173);
     color: #fff;
@@ -48,19 +57,13 @@
     cursor: pointer;
 }
 
-body{
-    background-image: url('img/back.jpg');
-    background-size: cover;
-    font-family: Arial, sans-serif;
-    margin: 0;
-}
-
 .menu {
     width: 5rem;
     height: 100vh;
     position: fixed;
     background-color: var(--bg-primary);
     transition: width 300ms ease;
+    z-index: 10;
 }
 
 .menu-nav {
@@ -172,4 +175,46 @@ body{
 
 .register-btn:hover {
     background-color: #daa520;
+}
+
+.gallery {
+    margin-left: 16rem;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.twtop {
+    display: flex;
+    gap: 20rem;
+    align-items: center;
+}
+
+.image-item {
+    display: inline-block;
+    position: relative;
+}
+
+.image {
+    display: block;
+    width: 20%;
+    height: 22rem;
+    width: 38rem;
+    border-radius: 12px;
+}
+
+.button {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: rgb(208, 72, 197);
+    color: #ececec;
 }

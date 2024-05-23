@@ -1,3 +1,8 @@
+:root {
+    --primary-color:yellow;
+    --text-color: white;
+    --border-color: #dbdbdb;
+}
 html, body {
     height: 100%;
     margin: 0;
@@ -9,8 +14,109 @@ html, body {
     color: #fff; 
 }
 .container {
-    background-color: #dd5555;
+    background-color: #090404;
     padding: 20px;
     border: 1px solid black;
     border-radius: 8px;
+    height: fit-content;
+    width: 500px;
+    
+}
+.container_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container_heading{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--text-color);
+    margin-top: 10px;
+}
+.container_switch-btn{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--primary-color);
+    cursor: pointer;
+    
+}
+.container_form{
+    width: 100%;
+}
+.container_input{
+    width: 100%;
+    height: 30px;
+    margin-top: 16px;
+    padding-left: 5px;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 2px;
+    outline: none;
+}
+.container_input:focus{
+    border-color: #4013c5;
+}
+.container_aside{
+    margin-top:30px;
+}
+.container_policy-text{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.container_text-link{
+    text-decoration: none;
+    color: yellow
+}
+.container_controls{
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    min-width: 140px;
+    height: 36px;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 1rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn--primary{
+    background-color: var(--primary-color);
+    color: black;
+}
+.container_controls-back{
+    margin-right: 10px;
+}
+.container__socials{
+    background-color: black; 
+    padding: 16px 36px ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.btn.btn--size-s{
+    height: 30px;
+    font-size: 17px;
+    padding: 0 8px;
+}
+.container__socials--facebook
+.container__socials-icon{
+    color:white
+}
+.container__socials--facebook{
+    background-color: #3a5a98;
+    color: #dbdbdb;
+    height: 70px;
+}
+.container__socials-title{
+    margin: 0 10px;
+}
+.container__socials--google{
+    background-color: white;
 }

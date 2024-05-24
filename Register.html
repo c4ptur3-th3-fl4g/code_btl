@@ -6,6 +6,7 @@
     <title>Ticket Box - Register</title>
     <link rel="icon" type="image/x-icon" href='img/logo.jpg'>
     <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 
 <body>
@@ -13,43 +14,48 @@
         <div class="register-box">
             <img src="img/logo.jpg" alt="logo" class="register-logo">
             <div class="container_header">
-                    <h3>CREATE YOUR ACCOUNT</h3>
+                    <h3>Tạo tài khoản của bạn</h3>
             </div>
-            <div class="container_group">
-                <h3>Name:</h3>
-                <input type="text" class="container_input" placeholder="Enter your name">
+            <div class="container_form">
+                <div class="container_group">
+                    <h3>Name:</h3>
+                    <input type="text" class="container_input" placeholder="Nhập tên của bạn">
+                </div>
+                <div class="container_group">
+                    <input type="text" class="container_input" placeholder="Nhâp email của bạn">
+                </div>
+                <div class="container_group">
+                    <input type="text" class="container_input" placeholder="Nhâp số điện thoại">
+                </div>
+                <div class="container_group">
+                    <input type="password" class="container_input" placeholder="Nhâp mật khẩu của bạn">
+                </div>
+                <div class="container_group">
+                    <input type="password" class="container_input" placeholder="Xác nhận mật khẩu ">
+                </div>
             </div>
-            <div class="container_group">
-                <input type="text" class="container_input" placeholder="Nhâp email của bạn">
-            </div>
-            <div class="container_group">
-                <input type="text" class="container_input" placeholder="Nhâp số điện thoại">
-            </div>
-            <div class="container_group">
-                <input type="password" class="container_input" placeholder="Nhâp mật khẩu của bạn">
-            </div>
-            <div class="container_group">
-                <input type="password" class="container_input" placeholder="Xác nhận mật khẩu ">
-            </div>
-        
             <div class="container_aside">
             <p class="container_policy-text">
-                Với việc bấm nút đăng ký thì bạn đã đồng ý với Ticket Box về các 
-                <a href="" class="container_policy-link">Điều khoản dịch vụ</a> & <a href="" class="container_policy-link">Chính sách bảo mật</a>
+                Với việc bấm nút đăng ký, bạn đã đồng ý với Ticket Box về các 
+                <a href="" class="container_text-link">Điều khoản dịch vụ</a> & <a href="" class="container_text-link">Chính sách bảo mật</a>
             </p>
             </div>
             <div class="container_controls">
-            <button class="btn">Quay lại</button>
+            <button class="btn container_controls-back">Quay lại</button>
             <button class="btn btn--primary">Đăng ký</button>
             </div>
             <div class="container__socials">
-            <a href="" class="btn btn--with-icon">
-                <i class="fa-brands fa-square-facebook"></i>
-                Đăng ký bằng Facebook
+            <a href="" class="container__socials-facebook btn btn--size-s btn--with-icon">
+                <i class="container__socials-icon fab fa-facebook-square"></i>
+                <span class="container__socials-title">
+                    Đăng ký bằng Facebook
+                </span>
             </a>
-            <a href="" class="btn btn--with-icon">
-                <i class="fa-brands fa-google"></i>
-                Đăng ký bằng Google
+            <a href="" class="container__socials-google btn btn--size-s btn--with-icon">
+                <i class="container__socials-icon fab fa-google"></i>
+                <span class="container__socials-title">
+                    Đăng ký bằng Google
+                </span>
             </a>
             </div>
         </div>

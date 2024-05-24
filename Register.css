@@ -14,7 +14,7 @@ body {
 .container {
     flex-direction: column;
     display: flex;
-}
+}    
 
 .register-box {
     background-color: #fffffff0;
@@ -42,4 +42,82 @@ body {
 .container_group {
     position: relative;
     left:0px;
+}
+.container_form{
+    margin-top: 16px;
+}
+.container_input{
+    width: 70%;
+    height: 35px;
+    margin-top: 16px;
+    padding: 0 12px;
+    font-size: 1.2rem;
+    border-radius: 2px solid black;
+}
+.container_aside{
+    margin-top: 30px;
+}
+.container_policy-text{
+    font-size: 1.1rem;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 ;
+}
+.container_text-link{
+    text-decoration: none;
+}
+.container_controls{
+    margin-top:60px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btn{
+    min-width: 140px;
+    height: 35px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    padding: 0 12px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn.btn--primary{
+    color: white;
+    background-color: black;
+}
+
+.container_controls-back{
+    margin-right: 10px;
+}
+.container__socials{
+    margin-top: 24px;
+    padding: px 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn.btn--size-s{
+    height: 40px;
+    font-size: 15px;
+    padding:0 8px;
+}
+.container__socials-icon{
+    font-size: 1.4rem;
+}
+.container__socials-facebook{
+    background-color: #3A5A98 ;
+    color: white;
+}
+.container__socials-title{
+    margin:0 10px;
+}
+.container__socials-google{
+    background-color: white;
+    color:black
+}
+.container_text-link{
+    color: rgb(231, 120, 69);
 }

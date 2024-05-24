@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 :root {
     font-family: 'Roboto Condensed',sans-serif;
 }
 
 body {
+=======
+html, body {
+    height: 100%;
+>>>>>>> parent of f969176 (Update Register web)
     margin: 0;
     display: flex;
     justify-content: center;
@@ -12,6 +17,7 @@ body {
 }
 
 .container {
+<<<<<<< HEAD
     flex-direction: column;
     display: flex;
 }
@@ -42,4 +48,10 @@ body {
 .container_group {
     position: relative;
     left:0px;
+=======
+    background-color: #dd5555;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+>>>>>>> parent of f969176 (Update Register web)
 }

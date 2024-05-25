@@ -255,3 +255,47 @@ body{
     background-color: rgb(208, 72, 197);
     color: #ececec;
 }
+
+.event {
+    margin-top: 3rem;
+    position: relative;
+    width: 82%;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 12px;
+    overflow: hidden;
+}
+
+.slider img {
+    display: block;
+    width: 15rem;
+    height: 21rem;
+    border-radius: 12px;
+    flex-shrink: 0;
+}
+
+.nav-button {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+#prev {
+    left: 0;
+}
+
+#next {
+    right: 0;
+}

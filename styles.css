@@ -299,3 +299,7 @@ body{
 #next {
     right: 0;
 }
+
+.trending {
+    margin-top: 3rem;
+}

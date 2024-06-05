@@ -26,7 +26,8 @@ formRegister.addEventListener("submit", function(e){
     e.preventDefault();
 
     if (!userNameElement.value) {
-        alert("Tên không được để trống");
+        alert("Tên không được để trống")
+        return;
     }
 
     if (passwordElement.value !== rePasswordElement.value){
@@ -35,13 +36,14 @@ formRegister.addEventListener("submit", function(e){
     if (userNameElement.value && 
         emailElement.value && 
         contactElement.value && 
-        passwordElement.value && rePasswordElement.value 
-        &&passwordElement.value === rePasswordElement.value){
+        passwordElement.value && 
+        rePasswordElement.value &&
+        passwordElement.value === rePasswordElement.value){
         const user  = {
             userId: Math.ceil(Math.random() * 1000000000),
             userName: userNameElement.value,
             email: emailElement.value,
-            password: passwordElement
+            password: passwordElement.value
         };
         // Day user vao mang
         userLocal.push(user);

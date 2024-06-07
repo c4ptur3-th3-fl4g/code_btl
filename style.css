@@ -31,7 +31,7 @@ body {
   font-size: 30px; 
 }
 
-.login-form input[type="text"],
+.login-form input[type="email"],
 .login-form input[type="password"] {
     width: 20px; 
     padding: 12px;
@@ -146,3 +146,7 @@ body {
   background: #1da1f2;
 }
 
+.alert.alert.alert-danger{
+  display: none;
+  padding: 10px;
+}

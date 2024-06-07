@@ -150,7 +150,9 @@
                     Your browser does not support the video tag.
                 </video>
                 <p class="price">From 850.000d</p>
-                <button class="button">View Detail</button>
+                <button class="button">
+                    <a href="events/Event1.html">
+                    View Detail</a></button>
             </div>
             <div class="image-item">
                 <img src="img/anh2.jpg" alt="Image 2" class="image">
@@ -159,7 +161,9 @@
                     Your browser does not support the video tag.
                 </video>
                 <p class="price">From 0d</p>
-                <button class="button">View Detail</button>
+                <button class="button">
+                    <a href="events/Event2.html">
+                    View Detail</a></button>
             </div>
         </div>
         <div class="event">
@@ -175,55 +179,7 @@
             </div>
             <button class="nav-button" id="next">→</button>
         </div>
-        <div class="trending">
-            <h3 style="color: #ffffff;">Trending events</h3>
-        </div>
     </div>
-    <script>
-        document.addEventListener('DOMContentLoaded', () => {
-    
-        const slider = document.getElementById('slider');
-        const prev = document.getElementById('prev');
-        const next = document.getElementById('next');
-        let scrollAmount = 0; 
-        const slideStep = slider.children[0].clientWidth + 9.5; 
-        prev.addEventListener('click', () => {
-            scrollAmount -= slideStep;
-            if (scrollAmount < 0) {
-                scrollAmount = slider.scrollWidth - slider.clientWidth; 
-                slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-            } else {
-                slider.scrollBy({ left: -slideStep, behavior: 'smooth' });
-            }
-        });
-
-        next.addEventListener('click', () => {
-            scrollAmount += slideStep;
-            if (scrollAmount >= slider.scrollWidth - slider.clientWidth) {
-                scrollAmount = 0; // Về đầu
-                slider.scrollTo({ left: scrollAmount, behavior: 'smooth' });
-            } else {
-                slider.scrollBy({ left: slideStep, behavior: 'smooth' });
-            }
-        });
-    
-            document.querySelectorAll('.image-item').forEach(container => {
-                const video = container.querySelector('.video');
-    
-                container.addEventListener('mouseenter', () => {
-                    if (video) {
-                        video.play();
-                    }
-                });
-    
-                container.addEventListener('mouseleave', () => {
-                    if (video) {
-                        video.pause();
-                        video.currentTime = 0;
-                    }
-                });
-            });
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>

@@ -259,7 +259,7 @@ body{
 .event {
     margin-top: 3rem;
     position: relative;
-    width: 82%;
+    width: 72%;
     overflow: hidden;
 }
 
@@ -299,7 +299,6 @@ body{
 #next {
     right: 0;
 }
-
-.trending {
-    margin-top: 3rem;
+a{
+    text-decoration: none;
 }

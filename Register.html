@@ -16,24 +16,26 @@
             <div class="container_header">
                     <h3>Tạo tài khoản của bạn</h3>
             </div>
-            <div class="container_form">
+        <form id = "formRegister">   
+            <div class="container_form" id = "formRegister">
                 <div class="container_group">
                     <h3>Thông tin tài khoản</h3>
-                    <input type="text" class="container_input" placeholder="Nhập tên của bạn">
+                    <input type="text" class="container_input" id ="userName" placeholder="Nhập tên của bạn" required>
                 </div>
                 <div class="container_group">
-                    <input type="text" class="container_input" placeholder="Nhâp email của bạn">
+                    <input type="email" class="container_input" id = "email" placeholder="Nhâp email của bạn" required>
                 </div>
                 <div class="container_group">
-                    <input type="text" class="container_input" placeholder="Nhâp số điện thoại">
+                    <input type="text" class="container_input" id = "contact" placeholder="Nhâp số điện thoại" required>
                 </div>
                 <div class="container_group">
-                    <input type="password" class="container_input" placeholder="Nhâp mật khẩu của bạn">
+                    <input type="password" class="container_input" id = "password" placeholder="Nhâp mật khẩu của bạn" required>
                 </div>
                 <div class="container_group">
-                    <input type="password" class="container_input" placeholder="Xác nhận mật khẩu ">
+                    <input type="password" class="container_input" id = "rePassword" placeholder="Xác nhận mật khẩu " required><br><br>
                 </div>
             </div>
+            <input type="checkbox" id="showPassword" class="show-password" onclick="togglePasswords()"> Hiển thị mật khẩu<br><br>
             <div class="container_aside">
             <p class="container_policy-text">
                 Với việc bấm nút đăng ký, bạn đã đồng ý với Ticket Box về các 
@@ -44,7 +46,7 @@
             <button class="btn container_controls-back">
                 <a href="http://127.0.0.1:3000/code_btl/index.html">Quay lại</a>
             </button>
-            <button class="btn btn--primary">Đăng ký</button>
+            <button type = "submit" class="btn btn--primary">Đăng ký</button>
             </div>
             <div class="container__socials">
             <a href="" class="container__socials-facebook btn btn--size-s btn--with-icon">
@@ -60,7 +62,9 @@
                 </span>
             </a>
             </div>
+        </form>
         </div>
     </div>
+    <script src="../code_btl/Register.js"></script>
 </body>    
 </html>

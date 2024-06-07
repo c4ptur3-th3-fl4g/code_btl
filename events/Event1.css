@@ -53,13 +53,12 @@
 }
 
 body {
-    background-image: url('img/back.jpg');
+    background-image: url('../img/back.jpg');
     background-size: cover;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-family: Arial, sans-serif;
     line-height: 1.6;
-    padding-bottom: 100px; /* Đảm bảo footer không đè lên nội dung */
+    padding-bottom: 100px; 
     position: relative;
     min-height: 100vh;
 }
@@ -142,16 +141,30 @@ img{
 .MoreInfo{
     background-color: rgba(255, 255, 255, 0.8);
     gap: 20px;
-    max-width: 1200px; /* Giới hạn chiều rộng tối đa */
-    margin: 10px auto; /* Căn giữa container */
-    padding: 20px; /* Thêm khoảng đệm xung quanh */
-    background-color: rgba(255, 255, 255, 0.8); /* Màu nền mờ cho container */
-    border-radius: 10px; /* Bo tròn góc */
+    max-width: 1200px; 
+    margin: 10px auto; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
     font-size: 18px;
 }
+
 b{
     color: green;
 }
+
+.event-details #adress {
+    font-size: 0.9em;
+    display: block;
+    margin-left: 1em;
+}
+
+.event-details #venue-text, #date-text {
+    color: green;
+    font-weight: bold;
+
+}
+
 .Buy{
     width: 150px;
     height: 40px;

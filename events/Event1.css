@@ -159,4 +159,9 @@ b{
     font-size: 18px;
     color:white;
     background-color: #0d0e0f;
+    border: 0px;
+}
+
+.Buy:hover {
+    background-color: #ae5eb7;
 }

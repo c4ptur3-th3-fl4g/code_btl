@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prev = document.getElementById('prev');
     const next = document.getElementById('next');
     let scrollAmount = 0; 
-    const slideStep = slider.children[0].clientWidth + 9.5; 
+    const slideStep = slider.children[0].clientWidth + 17; 
     prev.addEventListener('click', () => {
         scrollAmount -= slideStep;
         if (scrollAmount < 0) {

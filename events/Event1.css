@@ -178,3 +178,27 @@ b{
 .Buy:hover {
     background-color: #ae5eb7;
 }
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #c5bebe;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.img-footer{
+    height: 30px;
+}
+.img-footer1{
+    height:40px;
+}

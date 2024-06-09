@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Them su kien cho nut dang xuat
             userInfoDiv.querySelector('#logoutButton').addEventListener('click', function() {
                 localStorage.removeItem('userLogin');
-                window.location.reload(); // Làm mới trang sau khi đăng xuất
+                window.location.reload(); 
             });
         
             // them the div vào trong user-info-container

@@ -104,11 +104,11 @@ body {
 .section-container {
     display: flex;
     gap: 20px;
-    max-width: 1200px; /* Giới hạn chiều rộng tối đa */
-    margin: 20px auto; /* Căn giữa container */
-    padding: 20px; /* Thêm khoảng đệm xung quanh */
-    background-color: rgba(255, 255, 255, 0.8); /* Màu nền mờ cho container */
-    border-radius: 10px; /* Bo tròn góc */
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
 }
 
 .event-details, .event-image {

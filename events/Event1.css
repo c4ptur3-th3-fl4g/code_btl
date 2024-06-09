@@ -28,23 +28,21 @@
     display: flex;
     align-items: left;
     border: 1px solid #ccc;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     position: relative;
     right: 3rem;
     top: 15px;
 }
-
 .search-box {
-    padding: 11px;
+    padding: 10px;
     border: none;
     outline: none;
-    width: 300px;
+    width: 33rem;
 }
-
 .search-button {
-    padding: 5px 10px;
+    padding: 2% 4%;
     background-color: #33ae2d;
     color: #fff;
     border: none;

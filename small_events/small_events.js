@@ -17,28 +17,5 @@ document.addEventListener("DOMContentLoaded", function() {
         // an thong tin nguoi dung neu co
         const userInfoContainer = document.getElementById('user-info-container');
         userInfoContainer.classList.add('hidden');
-    }
-    function showLoggedInUserInfo(findUser) {
-        const userInfoDiv = document.createElement('div');
-        userInfoDiv.classList.add('user-info-details');
-        userInfoDiv.innerHTML = `
-            <p>Xin chào, <strong>${findUser.userName}</strong>!</p>
-            <button id="logoutButton">Đăng xuất</button>
-        `;
-    
-        // Them su kien cho nut dang xuat
-        userInfoDiv.querySelector('#logoutButton').addEventListener('click', function() {
-            localStorage.removeItem('userLogin');
-            window.location.reload(); 
-        });
-    
-        // them the div vào trong user-info-container
-        const userInfoContainer = document.getElementById('user-info-container');
-        userInfoContainer.innerHTML = ''; 
-        userInfoContainer.appendChild(userInfoDiv);
-    
-        // hien thi user container
-        userInfoContainer.classList.remove('hidden');
-    }
-    
+    }  
 });

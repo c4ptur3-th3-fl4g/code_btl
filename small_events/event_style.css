@@ -305,3 +305,10 @@ html, body {
 .img-footer1{
     height:40px;
 }
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

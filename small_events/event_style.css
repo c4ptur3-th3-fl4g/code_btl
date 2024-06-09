@@ -130,7 +130,7 @@ html, body {
 }
 
 .ticket-banner {
-    background-color: #333;
+    background-color: rgb(56, 56, 61);
     display: flex;
     justify-content: space-between;
     position: relative;
@@ -190,7 +190,7 @@ html, body {
     position: absolute;
     top: 40px; 
     bottom: 40px; 
-    left: 34.9%;
+    left: 35.6%;
     width: 0;
     border-left: 3px dashed rgb(31, 30, 30);;
     transform: translateX(-50%);
@@ -198,8 +198,7 @@ html, body {
 }
 
 .banner-left {
-    
-    width: 21.3rem;
+    width: 22rem;
     margin: 1rem;   
 }
 

@@ -12,17 +12,18 @@
 <body>
     <nav class="header">
         <div class="left-div">
-            <img class="avt" src="img/logo.jpg" style="height: 4%; width: 4%; border-radius: 20%; overflow: hidden; float: left;">
-            <h2>TICKET BOX</h2>
+            <img class="avt" src="img/logo.jpg">
+            <img class="text-avt" src="img/text_avt.svg">
         </div>
         <div class="search-container">
-            <input type="text" class="search-box" placeholder="Search">
+            <input type="text" class="search-box" placeholder="What are you looking for today ?">
             <button class="search-button"><i class="fas fa-search"></i></button>
         </div>
         <div class="auth-buttons">
-            <button class="btn login-btn" onclick="location.href='login.html'">Login</button>
-            <button class="btn register-btn" onclick="location.href='Register.html'">Register</button>
+            <button class="btn login-btn" id = "loginBtn" onclick="location.href='login.html'">Login</button>
+            <button class="btn register-btn" id = "registerBtn" onclick="location.href='Register.html'">Register</button>
         </div>
+        <div id="user-info-container" style="display: none;">
     </nav>
 
     <nav class="menu">

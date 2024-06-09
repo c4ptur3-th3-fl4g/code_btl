@@ -180,7 +180,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
-    gap: 0.5%;
+    gap: 3.5%;
     overflow: hidden;
 }
 .slider img {

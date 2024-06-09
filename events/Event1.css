@@ -200,3 +200,41 @@ b{
 .img-footer1{
     height:40px;
 }
+.user-info-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--bg-secondary); 
+    color: var(--text-primary); 
+    padding: 15px 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    margin-top: 1rem; 
+    margin-right: 2rem; 
+    width: 78%;
+    
+}
+
+
+.user-info-details p {
+    margin: 0; 
+    font-size: 16px; 
+    font-weight: 600; 
+}
+
+
+#logoutButton {
+    padding: 5px 20px; 
+    background-color: #ff5722; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+    border-radius: 3px; 
+    font-size: 14px;
+    font-weight: 600; 
+}
+
+
+#logoutButton:hover {
+    background-color: #e64a19; 
+}

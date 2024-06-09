@@ -20,9 +20,10 @@
             <button class="search-button"><i class="fas fa-search"></i></button>
         </div>
         <div class="auth-buttons">
-            <button class="btn login-btn" onclick="location.href='../login.html'">Login</button>
-            <button class="btn register-btn" onclick="location.href='../Register.html'">Register</button>
+            <button class="btn login-btn" id = "loginBtn" onclick="location.href='../login.html'">Login</button>
+            <button class="btn register-btn" id = "registerBtn" onclick="location.href='../Register.html'">Register</button>
         </div>
+        <div id="user-info-container" style="display: none;"></div>
     </nav>
     <div class="section-container">
         <section class = "event-details">
@@ -96,5 +97,6 @@
             <img class = "img-footer1" src = "../img/download2.svg">
         </div>
     </footer>
+    <script src = "Event.js"></script>
 </body>
 </html>    

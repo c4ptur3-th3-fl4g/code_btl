@@ -1,0 +1,307 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    background-color: rgb(187, 84, 173);
+    color: #fff;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-div {
+    margin-left: 15%;
+    display: flex;
+}
+
+.avt {
+    margin: 10px;
+    height: 4rem; 
+    min-width: 4rem; 
+    border-radius: 20%; 
+    overflow: hidden;  
+}
+
+.text-avt {
+    width: 50%;
+}
+
+@media (max-width: 850px) {
+    .text-avt {
+        display: none;
+    }
+    .left-div {
+        margin-left: 5%;
+    }
+    .right-div {
+        margin-right: 5%;
+    }
+}
+
+.right-div {
+    margin-right: 13%;
+    display: flex;
+}
+
+.search-container {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 2rem;
+}
+
+.search-box {
+    padding: 11px;
+    border: none;
+    outline: none;
+    width: 15rem;
+}
+
+@media (max-width: 700px) {
+    .search-box, .search-button {
+        display: none;
+    }
+    .right-div {
+        margin-right: 2%;
+    }
+}
+
+.search-button {
+    padding: 2% 7%;
+    background-color: #33ae2d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #148416; 
+}
+
+.auth-buttons button {
+    transition: background-color 0.3s ease;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.login-btn {
+    background-color: #000;
+    color: #fff; 
+}
+
+.login-btn:hover {
+    background-color: #3e4246; 
+}
+
+.register-btn {
+    background-color: #ffd700; 
+    color: #000; 
+}
+
+.register-btn:hover {
+    background-color: #daa520;
+}
+
+.ticket-container {
+    line-height: 1.15;
+    padding-block: 2rem;
+    padding-inline: 1rem;
+    background: linear-gradient(rgb(39, 39, 42) 48.04%, rgb(0, 0, 0) 100%);
+    color: rgb(255, 255, 255);
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ticket-banner {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 24.5rem;
+    margin: 10px;
+    border-radius: 25px;
+    min-width: 50rem;
+    margin-left: 15%;
+    margin-right: 13%;
+}
+
+@media (max-width: 1024px) {
+    .ticket-banner {
+        min-width: 40rem;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media (max-width: 768px) {
+    .ticket-banner {
+        min-width: 30rem;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 480px) {
+    .ticket-banner {
+        min-width: 100%;
+        margin: 10px;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+
+#circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 30%;
+}
+
+.circle1 {
+    top: -40px;
+    background-color: rgb(39, 39, 42);
+}
+
+.circle2 {
+    bottom: -40px;
+    background-color: rgb(0, 0, 0);
+}
+
+.dashed-line {
+    position: absolute;
+    top: 40px; 
+    bottom: 40px; 
+    left: 34.9%;
+    width: 0;
+    border-left: 3px dashed rgb(31, 30, 30);;
+    transform: translateX(-50%);
+    z-index: 0; 
+}
+
+.banner-left {
+    
+    width: 21.3rem;
+    margin: 1rem;   
+}
+
+.banner-left #date-text, #venue-text {
+    color:#27ac29;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.banner-left #text-detail {
+    font-size: 12px;
+    margin-left: 22px;
+    margin-top: -10px;
+    color: #c2c6ca;
+}
+
+.infoTicket {
+    margin-top: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    border-top: 1px solid whitesmoke;
+}
+
+.infoTicket #pay {
+    color: #27ac29;
+}
+
+.Buy {
+    border: none;
+    background-color: rgb(45, 194, 117);
+    color: #fff;
+    font-weight: bold;
+    width: 91%;
+    padding-block: 0.5rem;
+    border-radius: 0.25rem;
+    transition: background-color 0.5s ease;
+}
+
+.Buy:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+}
+
+
+.banner-right #event-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.about-ticket {
+    width: 100%;
+    background-color: rgb(206, 209, 216);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    margin: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 65rem;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.in4-detail {
+    margin: 20px;
+}
+
+.in4-text ul {
+    font-family: Inter, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgb(39, 39, 42);
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: #c5bebe;
+    padding: 20px;
+}
+
+.footer-column {
+    flex: 1;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+.img-footer{
+    height: 30px;
+}
+.img-footer1{
+    height:40px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href='../img/logo.jpg'>
+    <link rel="stylesheet" href="event_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="left-div">
+            <img class="avt" src="../img/logo.jpg">
+            <img class="text-avt" src="../img/text_avt.svg">
+        </div>
+        <div class="right-div">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="What are you looking for today ?">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn login-btn" onclick="location.href='../login.html'">Login</button>
+                <button class="btn register-btn" onclick="location.href='../Register.html'">Register</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="ticket-container">
+            <div class="ticket-banner">
+                <div class="banner-left">
+                    <div id="circle" class="circle1"></div>
+                    <div id="circle" class="circle2"></div>
+                    <div class="dashed-line"></div>
+                    <div class="text">
+                        <h3>[HN] TRUNG QUÂN 1689 - More than 1589</h3>
+                        <p id="date">
+                            <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M4.333.333C4.702.333 5 .632 5 1v.667h4V1a.667.667 0 011.333 0v.667H11a2.667 2.667 0 012.667 2.667v1.333H.333V4.334A2.667 2.667 0 013 1.667h.667V1c0-.368.298-.667.666-.667zM13.667 7H.333v5.334c0 .736.597 1.333 1.334 1.333h10.666c.737 0 1.334-.597 1.334-1.333V7z" fill="#fff"></path>
+                            </svg>                
+                            <span id="date-text"> 19:00 - 22:00, 13 Jul, 2024</span>
+                        </p>
+                        <p>
+                            <svg width="18" height="20" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="location-icon" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.031 3.307a10.514 10.514 0 0113.937 0c4.485 3.945 4.955 10.854 1.058 15.392l-7.015 8.17a1.333 1.333 0 01-2.023 0l-7.015-8.17C-.923 14.161-.454 7.252 4.031 3.307zM11 14.667A3.333 3.333 0 1011 8a3.333 3.333 0 000 6.666z" fill="#fff"></path></svg>
+                            <span id="venue-text">Nhà thi đấu Phú Thọ</span>
+                        </p>
+                        <p id="text-detail">01 Lữ Gia, Phường 15, Quận 11, Thành Phố Hồ Chí Minh</p>
+                    </div>
+                    <div class="infoTicket">
+                        <p>From <span id="pay">1.000.000 đ</span></p>
+                        <button class="Buy">Book Now</button>
+                    </div>  
+                </div>
+                <div class="banner-right">
+                    <img id="event-pic" src="pic/e1.jpg" alt="event picture">
+                </div>
+            </div>
+        </div>
+        <div class="about-ticket">
+            <div class="information">
+                <div class="in4-detail">
+                    <h4>About</h4>
+                    <div class="in4-text">
+                        <p>
+                            <strong>Hạng vé/giá bán:</strong>
+                        </p>
+                        <ul>
+                            <li>Trót Yêu:&nbsp;&nbsp;4.000.000 VND</li>
+                            <li>Dấu Mưa:&nbsp;3.300.000 VND</li>
+                            <li>Tự Tình:&nbsp;&nbsp;2.700.000 VND</li>
+                            <li>Chuyện mưa:&nbsp;2.200.000 VND</li>
+                            <li>Chưa bao giờ:&nbsp;1.800.000 VND</li>
+                            <li>Gọi mưa:&nbsp;1.000.000 VND</li>
+                        </ul>
+            
+                        <h4>NHỮNG QUY ĐỊNH CẦN BIẾT KHI MUA VÉ</h4>
+                        <ul>
+                            <li>Trong quá trình mua vé, đối với hạng vé ngồi, khách hàng không được chọn vị trí ngồi chính xác. BTC sẽ xuất vé có số ghế ngồi cụ thể cho khách hàng và khách hàng bắt buộc phải ngồi theo đúng số ghế trên vé.</li>
+                            <li>Mỗi Vé tương ứng với 01 khách tham gia (không bao gồm trẻ em).</li>
+                            <li>Người Mua kiểm tra lại thông tin Vé (tổng số vé, loại vé, số vé từng loại) và số tiền trước khi xác nhận Đơn hàng mua Vé.</li>
+                            <li>Vé Sự Kiện là Vé không được đổi hoặc trả lại dưới mọi hình thức, khách hàng vui lòng cân nhắc kỹ trước khi mua.</li>
+                            <li>Thời gian giữ Vé: 15 PHÚT/ lượt.</li>
+                            <li>Khách hàng được mua tối đa 10 Vé/ 1 loại vé/ 1 giao dịch.</li>
+                            <li>Khách hàng có trách nhiệm bảo mật tuyệt đối mã Vé điện tử của mình. Trường hợp có nhiều hơn 1 người check-in bằng 1 mã Vé điện tử thì BTC sẽ chấp nhận người đầu tiên check-in mã Vé đó được tham gia chương trình.</li>
+                            <li>Đối với Người Mua đặt qua Ticketbox, sau khi hoàn thành thanh toán tiền mua Vé (Giao dịch thành công), hệ thống sẽ thực hiện gửi Mã Đặt Chỗ thành công cho Người Mua qua email. Chậm nhất trong vòng 5 (năm) ngày làm việc trước ngày sự kiện diễn ra (Hồ Chí Minh - 13/07/2023) BTC sẽ thực hiện gửi (các) Mã Vé QR (dùng để checkin vào cổng) cho Người Mua qua email Người Mua đã cung cấp.&nbsp;</li>
+                            <li>Để đảm bảo nhận được Mã Đặt Chỗ và Mã Vé QR, trước khi thực hiện việc đặt mua Vé theo quy trình giao dịch tại Quy chế này, Người Mua nên chủ động kiểm tra và điền đầy đủ, chính xác thông tin email trên các nền tảng bán Vé.</li>
+                            <li>Nếu trong vòng 24 giờ kể từ khi mua Vé mà Người Mua vẫn chưa nhận được Mã Đặt Chỗ (đối với Vé đặt qua Ticketbox) thì Người Mua vui lòng liên hệ Hotline: 1900.6408 hoặc email support@ticketbox.vn và Fanpage Facebook https://www.facebook.com/ticketbox.vn</li>
+                        </ul>
+                        
+                        <h4>QUY ĐỊNH CHECK IN</h4>
+                        <ul>
+                            <li>Thời gian mở cổng check in: 16h00 ngày 13/07/2024.</li>
+                            <li>Thời gian đóng cổng check in: 20h00 ngày 13/07/2024.</li>
+                            <li>Khách hàng có trách nhiệm bảo mật tuyệt đối mã Mã QR Vé điện tử của mình. Trường hợp có nhiều hơn 1 người check-in bằng 1 Mã QR Vé điện tử thì BTC sẽ chấp nhận người đầu tiên check-in mã QR Vé đó được tham gia chương trình.</li>
+                            <li>Ngay khi check in tại sự kiện, khách hàng sẽ được nhận vòng đeo tay. Điều kiện hợp lệ để vào tham gia sự kiện là: (1) có đủ vòng đeo tay (còn nguyên vẹn chưa bị rách/xé) và có đóng dấu check-in của chương trình; (2) khách hàng phải xuất trình được vé điện tử (hoặc vé mời) do BTC gửi của mình bất cứ lúc nào được yêu cầu. Khách hàng sẽ không được phép qua khu vực kiểm soát an ninh của sự kiện nếu thiếu 1 trong 2 điều trên.</li>
+                        </ul>
+
+                        <h4>QUY ĐỊNH THAM GIA SHOW</h4>
+                        <ul>
+                            <li>Trẻ em dưới 6 tuổi không được tham gia.&nbsp;</li>
+                            <li>Cấm mang vào địa điểm diễn ra sự kiện các loại vũ khí, vật sắc nhọn, chất nổ, chất độc, chất dễ cháy và chất phóng xạ, chất gây nghiện và chất kích thích, đồ ăn và thức uống có màu, mùi, vị (ngoại trừ nhãn, hiệu được phép) hoặc các vật phẩm khác có thể gây ảnh hưởng đến trật tự và công tác tổ chức sự kiện.</li>
+                            <li>Cấm mang vào địa điểm đèn laser, đèn pin, các vật nhọn, ô dù, bút viết, gậy selfie, chân máy ảnh/máy quay.</li>
+                            <li>Cấm mang vào địa điểm áp-phích, băng cổ vũ, bảng chỉ dẫn… có nội dung liên quan đến chính trị, tôn giáo và/hoặc chứa ngôn từ không phù hợp với thuần phong mỹ tục.</li>
+                            <li>Nghiêm cấm hút thuốc (kể cả thuốc lá điện tử) tại địa điểm diễn ra sự kiện.</li>
+                            <li>Cấm các loài động vật hoặc thú nuôi.</li>
+                            <li>Trang phục tham gia lịch sự, không phản cảm, không chứa hoạ tiết, thông điệp tuyên truyền về tôn giáo, chính trị, công kích cá nhân và tổ chức hoặc bất kỳ những vấn đề nào trái với thuần phong mỹ tục.</li>
+                            <li>Không phát trực tiếp (livestream) và không ghi hình trực tiếp toàn bộ chương trình. Không chụp ảnh, quay video hoặc ghi âm chuyên nghiệp theo bất kỳ hình thức nào trong suốt thời điểm chương trình ra. BTC có quyền yêu cầu người vi phạm ra khỏi khu vực sự kiện và không hoàn trả tiền vé.</li>
+                            <li>Tất cả người tham dự đều phải được kiểm tra túi/balo/túi xách tại tất cả các cổng vào trước khi vào bên trong.</li>
+                            <li>BTC có quyền yêu cầu kiểm tra, xem xét và từ chối quyền tham gia sự kiện đối với cá nhân/nhóm có dấu hiệu thực hiện các hành vi trái pháp luật, tuyên truyền tôn giáo trái phép, hay bất kỳ hoạt động nào làm ảnh hưởng tiêu cực đến sự kiện.&nbsp;</li>
+                            <li>Ban tổ chức có quyền thay đổi thời gian, bố cục sự kiện mà không cần thông báo trước.</li>
+                            <li>Khi tham gia chương trình đồng nghĩa với việc bạn đã đồng ý cho phép BTC sử dụng hình ảnh của mình để khai thác cho các sản phẩm ghi hình, ghi âm của chương trình.</li>
+                            <li>Quyết định của BTC là quyết định cuối cùng trong mọi trường hợp.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="footer-content">
+                <img class = "img-footer" src = "../img/download.svg">
+                <p>&copy; 2024 TicKetBox. All rights reserved.</p>
+                <p>Vietnamese Order Ticket</p>
+                <p>Powered by HTML, CSS, Javascript.</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-content">
+                <p>Follow us:</p>
+                <p>Owner: Đỗ Nguyễn Minh Phương.</p>
+                <p>Hotline: 1900 0019.</p>
+                <p>Address: Số 24, đường Trần Duy Hưng, Cầu Giấy, Hà Nội.</p>
+            </div>
+        </div>
+        <div>
+            <img class ="img-footer1"src = "../img/download2.svg">
+        </div>
+    </footer>
+</body>
+</html>

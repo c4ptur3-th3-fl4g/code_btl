@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href='../img/logo.jpg'>
+    <link rel="stylesheet" href="event_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="left-div">
+            <img class="avt" src="../img/logo.jpg">
+            <img class="text-avt" src="../img/text_avt.svg">
+        </div>
+        <div class="right-div">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="What are you looking for today ?">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn login-btn" onclick="location.href='../login.html'">Login</button>
+                <button class="btn register-btn" onclick="location.href='../Register.html'">Register</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="ticket-container">
+            <div class="ticket-banner">
+                <div class="banner-left">
+                    <div id="circle" class="circle1"></div>
+                    <div id="circle" class="circle2"></div>
+                    <div class="dashed-line"></div>
+                    <div class="text">
+                        <h3>SÂN KHẤU BAN MAI: KỊCH THIẾU NHI COLORA - XỨ SỞ RỰC RỠ</h3>
+                        <p id="date">
+                            <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M4.333.333C4.702.333 5 .632 5 1v.667h4V1a.667.667 0 011.333 0v.667H11a2.667 2.667 0 012.667 2.667v1.333H.333V4.334A2.667 2.667 0 013 1.667h.667V1c0-.368.298-.667.666-.667zM13.667 7H.333v5.334c0 .736.597 1.333 1.334 1.333h10.666c.737 0 1.334-.597 1.334-1.333V7z" fill="#fff"></path>
+                            </svg>                
+                            <span id="date-text"> 16:30 - 18:30, 09 Jun, 2024</span>
+                        </p>
+                        <p>
+                            <svg width="18" height="20" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="location-icon" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.031 3.307a10.514 10.514 0 0113.937 0c4.485 3.945 4.955 10.854 1.058 15.392l-7.015 8.17a1.333 1.333 0 01-2.023 0l-7.015-8.17C-.923 14.161-.454 7.252 4.031 3.307zM11 14.667A3.333 3.333 0 1011 8a3.333 3.333 0 000 6.666z" fill="#fff"></path></svg>
+                            <span id="venue-text">Sân khấu Ban Mai - Nhà Thiếu Nhi TP.HCM</span>
+                        </p>
+                        <p id="text-detail">36 Lê Quý Đôn, Phường 06, Quận 3, Thành Phố Hồ Chí Minh</p>
+                    </div>
+                    <div class="infoTicket">
+                        <p>From <span id="pay">190.000 đ</span></p>
+                        <button class="Buy">Book Now</button>
+                    </div>  
+                </div>
+                <div class="banner-right">
+                    <img id="event-pic" src="https://salt.tkbcdn.com/ts/ds/58/71/ab/e81c46aa74ab24be446ad800c4d03ef2.png" alt="event picture">
+                </div>
+            </div>
+        </div>
+        <div class="about-ticket">
+            <div class="information">
+                <div class="in4-detail">
+                    <h4>About</h4>
+                    <p>&nbsp;</p>
+                    <div class="in4-text">
+                        <p><span style="color: #000000;"><strong>CHƯƠNG TRÌNH ƯU ĐÃI THÁNG 5 + THÁNG 6</strong></span></p>
+                        <p><strong><span style="color: #e03e2d;">MUA VÉ NHÓM: GIẢM 10% KHI MUA TỪ 10 VÉ - </span><span style="color: #2dc26b;">NHẬP MÃ: SALE10</span></strong></p>
+                        <p><span style="color: #000000;"><strong>CHƯƠNG TRÌNH ƯU ĐÃI ÁP DỤNG CÁC SUẤT DIỄN 31/05 - 01/06 - 02/06</strong></span></p>
+                        <p><span style="color: #e03e2d;"><strong>GIẢM 10% KHI MUA TỪ 4 VÉ - </strong></span><span style="color: #2dc26b;"><strong>NHẬP MÃ: SKBM10</strong></span></p>
+                        <p><span style="color: #e03e2d;"><strong>GIẢM 15% KHU MUA TỪ 5 VÉ - </strong></span><span style="color: #2dc26b;"><strong>NHẬP MÃ: SKBM15</strong></span></p>
+                        <p>Lưu ý: Chỉ áp dụng cho cùng một loại ghế.</p>
+                        <p>&nbsp;</p>
+                        <p><span style="color: #e03e2d;"><strong>ĐẶT VÉ TRƯỚC THỨ 5 HẰNG TUẦN:</strong></span></p>
+                        <p>Tặng 1 Sticker + 1 Nước Uống tại Sân khấu Ban Mai tương ứng với số lượng bé theo đơn đặt vé. Sau khi đặt vé online, anh/chị vui lòng liên hệ qua hotline 0918 089809 để được lưu thông tin và nhận quà vào ngày đến xem kịch nhé!</p>
+                        <p><strong>LƯU Ý:</strong></p>
+                        <p>Quý khán giả vui lòng chờ trong giây lát để trang web tải Lịch diễn và Vé</p>
+                        <img src="https://salt.tkbcdn.com/ts/ds/4e/01/0b/9a1f9431bfcb3ea371303aace1e49531.jpg" alt="" width="99%" height="1574">
+                        <p><span style="color: #169179;"><strong>GIỚI THIỆU VỀ VỞ KỊCH COLORA - XỨ SỞ RỰC RỠ</strong></span></p>
+                        <p><strong>Colora - Xứ Sở Rực Rỡ: Chuyến phiêu lưu cùng tình yêu thương, lòng dũng cảm và môi trường xanh</strong></p>
+                        <p>Lạc vào Khu rừng 5.0 kỳ diệu Colora, nơi công nghệ hòa quyện cùng thiên nhiên, bé sẽ gặp gỡ chim mẹ Hoàng Yến, chim con Hoàng Hậu và các người bạn rừng xanh đáng yêu. Những giai điệu du dương và hình ảnh rực rỡ sẽ dẫn dắt bé qua câu chuyện về sự lo lắng, che chở của chim mẹ dành cho con từng bước, cùng những mâu thuẫn và hiểu lầm xuất phát từ khát khao tự do của chim con.</p>
+                        <p><strong>Liệu sự kiện nào sẽ diễn ra sau đó?&nbsp;</strong></p>
+                        <p>Chim mẹ - Hoàng Yến có hiểu cho nỗi lòng của chim con - Hoàng Hậu?&nbsp;</p>
+                        <p>Hoàng Hậu có nhận ra tình yêu thương vô bờ bến của mẹ Hoàng Yến dành cho mình?</p>
+                        <p>Bé sẽ hồi hộp theo dõi những mâu thuẫn, hiểu lầm giữa hai mẹ con, cùng cảm nhận sức mạnh của tình yêu thương và tầm quan trọng của gia đình.</p>
+                        <p>&nbsp;</p>
+                        <p>Colora - Xứ Sở Rực Rỡ không chỉ là câu chuyện về tình yêu thương và lòng dũng cảm mà còn là lời kêu gọi các bạn nhỏ chung tay bảo vệ môi trường sống của chính mình. Hãy cùng giữ gìn Khu rừng 5.0 xanh mát, rực rỡ như trong vở kịch bằng cách thu gom rác thải nhựa đến với Ban Mai hoặc biến chúng thành những bộ trang phục ấn tượng để đến thưởng thức vở kịch Colora.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="footer-content">
+                <img class = "img-footer" src = "../img/download.svg">
+                <p>&copy; 2024 TicKetBox. All rights reserved.</p>
+                <p>Vietnamese Order Ticket</p>
+                <p>Powered by HTML, CSS, Javascript.</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-content">
+                <p>Follow us:</p>
+                <p>Owner: Đỗ Nguyễn Minh Phương.</p>
+                <p>Hotline: 1900 0019.</p>
+                <p>Address: Số 24, đường Trần Duy Hưng, Cầu Giấy, Hà Nội.</p>
+            </div>
+        </div>
+        <div>
+            <img class ="img-footer1"src = "../img/download2.svg">
+        </div>
+    </footer>
+</body>
+</html>

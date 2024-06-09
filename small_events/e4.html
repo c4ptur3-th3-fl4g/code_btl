@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href='../img/logo.jpg'>
+    <link rel="stylesheet" href="event_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="left-div">
+            <img class="avt" src="../img/logo.jpg">
+            <img class="text-avt" src="../img/text_avt.svg">
+        </div>
+        <div class="right-div">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="What are you looking for today ?">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn login-btn" onclick="location.href='../login.html'">Login</button>
+                <button class="btn register-btn" onclick="location.href='../Register.html'">Register</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="ticket-container">
+            <div class="ticket-banner">
+                <div class="banner-left">
+                    <div id="circle" class="circle1"></div>
+                    <div id="circle" class="circle2"></div>
+                    <div class="dashed-line"></div>
+                    <div class="text">
+                        <h3>[Sài Gòn] Những Thành Phố Mơ Màng Summer Tour 2024</h3>
+                        <p id="date">
+                            <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M4.333.333C4.702.333 5 .632 5 1v.667h4V1a.667.667 0 011.333 0v.667H11a2.667 2.667 0 012.667 2.667v1.333H.333V4.334A2.667 2.667 0 013 1.667h.667V1c0-.368.298-.667.666-.667zM13.667 7H.333v5.334c0 .736.597 1.333 1.334 1.333h10.666c.737 0 1.334-.597 1.334-1.333V7z" fill="#fff"></path>
+                            </svg>                
+                            <span id="date-text"> 15:00 - 22:30, 15 Jun, 2024</span>
+                        </p>
+                        <p>
+                            <svg width="18" height="20" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="location-icon" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.031 3.307a10.514 10.514 0 0113.937 0c4.485 3.945 4.955 10.854 1.058 15.392l-7.015 8.17a1.333 1.333 0 01-2.023 0l-7.015-8.17C-.923 14.161-.454 7.252 4.031 3.307zM11 14.667A3.333 3.333 0 1011 8a3.333 3.333 0 000 6.666z" fill="#fff"></path></svg>
+                            <span id="venue-text">Trung Tâm Hội Chợ Triển Lãm Sài Gòn SECC</span>
+                        </p>
+                        <p id="text-detail">Việt Nam, Phường Tân Phú, Quận 7, Thành Phố Hồ Chí Minh</p>
+                    </div>
+                    <div class="infoTicket">
+                        <p>From <span id="pay">550.000 đ</span></p>
+                        <button class="Buy">Book Now</button>
+                    </div>  
+                </div>
+                <div class="banner-right">
+                    <img id="event-pic" src="pic/e4.jpg" alt="event picture">
+                </div>
+            </div>
+        </div>
+        <div class="about-ticket">
+            <div class="information">
+                <div class="in4-detail">
+                    <h4>About</h4>
+                    <p>&nbsp</p>
+                    <div class="in4-text">
+                        <p>Những Thành Phố Mơ Màng - Summer Sài Gòn 2024</p>
+                    
+                        <p>Cư dân đã sẵn sàng chuẩn bị cho chuyến hành trình với "Những Thành Phố Mơ Màng Summer" chưa! Đón nhận không khí trẻ trung, năng động của mùa hè, sự lung linh của thành phố, và những bản hit âm nhạc sôi động. Hãy mua ngay vé để trải nghiệm cuộc phiêu lưu âm nhạc độc đáo này và tận hưởng một mùa hè đầy ý nghĩa cùng NTPMM nhé.</p>
+                       
+                        <p>Thời gian: 15/06/2024</p>
+                        <p>Địa điểm: Trung Tâm Hội Chợ Triển Lãm Sài Gòn SECC, Quận 7</p>
+                     
+                        <p>QUY ĐINH&nbsp;CHUNG KHI MUA VÉ</p>
+                        <p>1. Chương trình dành cho đối tượng khán giả trên 16 tuổi. Khán giả từ 10-15 tuổi tham gia chương trình phải có người giám hộ đi kèm (người giám hộ phải từ 18 tuổi trở lên, một người giám hộ kèm một trẻ vị thành niên) để quản lý và chịu hoàn toàn trách nhiệm nếu có bất kì sự cố nào xảy ra trong sự kiện.</p>
+                        <p>2. Phụ nữ mang thai và người có vấn đề về sức khoẻ tự cân nhắc khi tham gia chương trình. Trong trường hợp có vấn đề xảy ra, BTC không chịu trách nhiệm.</p>
+                        <p>3. Mỗi vé chỉ dành cho một khán giả tham dự, không kèm trẻ em và trẻ vị thành niên. Người giám hộ đi kèm theo khán giả vị thành niên phải mua vé để tham dự.&nbsp;</p>
+                        <p>4. Vé đã mua không được đổi hoặc hoàn trả dưới mọi hình thức. Khán giả có trách nhiệm tự bảo quản, bảo mật thông tin mã vé của mình. BTC từ chối giải quyết trường hợp có nhiều hơn một người check-in cùng một mã vé. Theo quy định, BTC cho phép người check-in đầu tiên mã vé bị trùng được tham dự sự kiện.</p>
+                        <p>5. Vui lòng không mua vé từ bất kỳ nguồn nào khác ngoài Ticketbox tránh trường hợp vé giả hoặc lừa đảo. BTC từ chối giải quyết cho những trường hợp mua vé từ nguồn khác nếu có vấn đề hay tranh chấp xảy ra.</p>
+                        <p>6. Khi tham gia chương trình, khán giả đồng ý với việc hình ảnh của mình được sử dụng để khai thác cho sản phẩm ghi hình, thu âm, quảng bá cho chương trình.</p>
+                        <p>7. BTC có quyền kiểm tra giấy tờ tuỳ thân của khán giả nếu có nghi ngờ về độ tuổi không phù hợp và từ chối quyền tham gia của bất kì khán giả nào không tuân thủ quy định của chương trình mà không hoàn trả vé.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="footer-content">
+                <img class = "img-footer" src = "../img/download.svg">
+                <p>&copy; 2024 TicKetBox. All rights reserved.</p>
+                <p>Vietnamese Order Ticket</p>
+                <p>Powered by HTML, CSS, Javascript.</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-content">
+                <p>Follow us:</p>
+                <p>Owner: Đỗ Nguyễn Minh Phương.</p>
+                <p>Hotline: 1900 0019.</p>
+                <p>Address: Số 24, đường Trần Duy Hưng, Cầu Giấy, Hà Nội.</p>
+            </div>
+        </div>
+        <div>
+            <img class ="img-footer1"src = "../img/download2.svg">
+        </div>
+    </footer>
+</body>
+</html>

@@ -61,7 +61,7 @@
 body{
     background-image: url('img/back.jpg');
     background-size: cover;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     height: 100vh;
 }
@@ -280,6 +280,8 @@ body{
     flex-direction: row;
     gap: 3.5%;
     overflow: hidden;
+    margin-bottom: 3rem;
+    margin-left: 2.2rem;
 }
 
 .slider img {
@@ -293,6 +295,74 @@ body{
 .slider a {
     flex-shrink: 0; 
 }
+
+.trending-event {
+    color: #fff;
+    width: 94%;
+}
+
+.trending {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 3%;
+    overflow: hidden;
+    margin-bottom: 3rem;
+    margin-left: 24px;
+}
+
+.slider-item {
+    min-width: 200px;
+    flex: 0 0 auto;
+    transition: transform 0.5s ease;
+    width: 370px;
+}
+
+.slider-item img {
+    max-width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+.info {
+    background-color: #686767;
+    padding: 8px;
+    border-radius: 0 0 8px 8px;
+    width: 95%;
+}
+
+.info .event-ten h5 {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #fff;
+}
+
+.info .event-pay {
+    margin-top: 10px;
+}
+
+.button-sub {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    background-color: rgba(75, 73, 73, 0.9);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    margin-right: 5rem;
+}
+
+#prevt {
+    left: 0;
+}
+
+#nextt {
+    right: 0;
+}
+
 
 .nav-button {
     position: absolute;
@@ -313,9 +383,7 @@ body{
 #next {
     right: 0;
 }
-a{
-    text-decoration: none;
-}
+
 
 .footer {
     display: flex;

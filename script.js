@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const prev = document.getElementById('prev');
     const next = document.getElementById('next');
     let scrollAmount = 0; 
-    const slideStep = slider.children[0].clientWidth + 17; 
+    const slideStep = slider.children[0].clientWidth + 60; 
     prev.addEventListener('click', () => {
         scrollAmount -= slideStep;
         if (scrollAmount < 0) {
@@ -88,4 +88,38 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         
     });
+
+    document.addEventListener('DOMContentLoaded', () => {
+    
+        const trending = document.getElementById('trending');
+        const prev = document.getElementById('prevt');
+        const next = document.getElementById('nextt');
+        let scrollAmount = 0; 
+        const slideStep = trending.children[0].clientWidth + 48; 
+        prev.addEventListener('click', () => {
+            scrollAmount -= slideStep;
+            if (scrollAmount < 0) {
+                scrollAmount = trending.scrollWidth - trending.clientWidth; 
+                trending.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+            } else {
+                trending.scrollBy({ left: -slideStep, behavior: 'smooth' });
+            }
+        });
+
+        next.addEventListener('click', () => {
+            scrollAmount += slideStep;
+            if (scrollAmount >= trending.scrollWidth - trending.clientWidth) {
+                scrollAmount = 0; // Về đầu
+                trending.scrollTo({ left: scrollAmount, behavior: 'smooth' });
+            } else {
+                trending.scrollBy({ left: slideStep, behavior: 'smooth' });
+            }
+        });
+
+    });
+
+
+
+
+    
     

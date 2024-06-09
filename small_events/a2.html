@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href='../img/logo.jpg'>
+    <link rel="stylesheet" href="event_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="left-div">
+            <img class="avt" src="../img/logo.jpg">
+            <img class="text-avt" src="../img/text_avt.svg">
+        </div>
+        <div class="right-div">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="What are you looking for today ?">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn login-btn" onclick="location.href='../login.html'">Login</button>
+                <button class="btn register-btn" onclick="location.href='../Register.html'">Register</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="ticket-container">
+            <div class="ticket-banner">
+                <div class="banner-left">
+                    <div id="circle" class="circle1"></div>
+                    <div id="circle" class="circle2"></div>
+                    <div class="dashed-line"></div>
+                    <div class="text">
+                        <h3>Khoá tu Mùa Hè TÌM VỀ CHÍNH MÌNH</h3>
+                        <p id="date">
+                            <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M4.333.333C4.702.333 5 .632 5 1v.667h4V1a.667.667 0 011.333 0v.667H11a2.667 2.667 0 012.667 2.667v1.333H.333V4.334A2.667 2.667 0 013 1.667h.667V1c0-.368.298-.667.666-.667zM13.667 7H.333v5.334c0 .736.597 1.333 1.334 1.333h10.666c.737 0 1.334-.597 1.334-1.333V7z" fill="#fff"></path>
+                            </svg>                
+                            <span id="date-text"> 14:00, 18 Jul, 2024 - 10:30, 21 Jul, 2024</span>
+                        </p>
+                        <p>
+                            <svg width="18" height="20" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="location-icon" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.031 3.307a10.514 10.514 0 0113.937 0c4.485 3.945 4.955 10.854 1.058 15.392l-7.015 8.17a1.333 1.333 0 01-2.023 0l-7.015-8.17C-.923 14.161-.454 7.252 4.031 3.307zM11 14.667A3.333 3.333 0 1011 8a3.333 3.333 0 000 6.666z" fill="#fff"></path></svg>
+                            <span id="venue-text">Tịnh Viện Pháp Thường, Nhơn Trạch Đồng Nai</span>
+                        </p>
+                        <p id="text-detail">Tinh Vien Phap Thuong, Huyen Nhon Trach, Dong Nai, Xã Phú Đông, Huyện Nhơn Trạch, Tỉnh Đồng Nai</p>
+                    </div>
+                    <div class="infoTicket">
+                        <p>From <span id="pay">Free</span></p>
+                        <button class="Buy">Register Now</button>
+                    </div>  
+                </div>
+                <div class="banner-right">
+                    <img id="event-pic" src="pic/a2.jpg" alt="event picture">
+                </div>
+            </div>
+        </div>
+        <div class="about-ticket">
+            <div class="information">
+                <div class="in4-detail">
+                    <h4>About</h4>
+                    <div class="in4-text" style="font-size: 14px;">
+                        <div class="style__ContentIntro-sc-e7oelh-1 czloHV"><p>&nbsp;</p>
+                            <h3><span style="color: #e67e23;"><strong><span>Khoá tu Mùa Hè "TÌM VỀ CHÍNH MÌNH"</span></strong></span></h3>
+                            <p><span>Từ 18 tuổi trở lên</span></p>
+                            <p><span>Ngày 18/07 - 21/07/2024</span></p>
+                            <p><span>~~~</span></p>
+                            <p>&nbsp;</p>
+                            <p><span><span style="color: #e67e23;"><strong>“TÌM VỀ CHÍNH MÌNH"</strong></span> là khoá tu mùa hè dành cho các bạn từ 18 tuổi trở lên (học sinh, sinh viên và những bạn đã đi làm). </span></p>
+                            <p>&nbsp;</p>
+                            <p><span>Tham dự khoá tu, các bạn có cơ hội tắm mình trong năng lượng bình an nơi Tịnh Viện làm mới bản thân sau một năm dài học tập, làm việc căng thẳng, mệt nhọc. </span></p>
+                            <p>&nbsp;</p>
+                            <p><span>Đến với khoá tu, các bạn có cơ hội: </span></p>
+                            <p><span>- Rèn luyện và phát triển sự thấu hiểu bản thân và thấu hiểu người khác. </span></p>
+                            <p><span>- Rèn luyện khả năng tập trung, phát triển sự nhận biết.</span></p>
+                            <p><span>- Học cách làm chủ cảm xúc, kiểm soát bản thân.</span></p>
+                            <p><span>- Học cách tự yêu thương và tự chấp nhận. </span></p>
+                            <p><span>- Chuyển hoá những căng thẳng, mệt nhọc, lo lắng, sợ hãi.</span></p>
+                            <p>&nbsp;</p>
+                            <p><span>“Tìm về Chính Mình” để nuôi dưỡng sự hiểu biết và tình thương, nuôi dưỡng và tưới tẩm những hạt giống thiện lành, phát triển Trí Tuệ trong mỗi chúng ta. </span></p>
+                            <p>&nbsp;</p>
+                            <p><span>Nếu bạn quan tâm về điều vừa chia sẻ, mời bạn có thể tham gia khoá tu để trải nghiệm bạn nhé. </span></p>
+                            <p>&nbsp;</p>
+                            <p><span style="color: #e67e23;"><strong><span>THÔNG TIN VỀ KHOÁ TU </span></strong></span></p>
+                            <p>&nbsp;</p>
+                            <p><span><span style="color: #e67e23;"><strong>1. Thời gian: </strong></span>4 ngày 3 đêm (14h00 thứ Năm - 10h30 Chủ Nhật)</span></p>
+                            <p><span>- Khoá 1: từ 18/07/2024 đến ngày 21/07/2024</span></p>
+                            <p><span>- Khoá 2: từ 15/08/2024 đến ngày 18/08/2024</span></p>
+                            <p>&nbsp;</p>
+                            <p><span><span style="color: #e67e23;"><strong>2. Địa điểm:</strong></span> Đạo Tràng Định Huệ, Tịnh Viện Pháp Thường. </span></p>
+                            <p><span>Ấp Bến Đình, Xã Phú Đông, Huyện Nhơn Trạch, Đồng Nai (cách Phà Cát Lái 10km)</span></p>
+                            <p>&nbsp;</p>
+                            <p><span><span style="color: #e67e23;"><strong>3. Đối tượng:</strong> </span>Sinh viên và các bạn đã đi làm (từ 18 tuổi)</span></p>
+                            <p><span>Do điều kiện tổ chức có hạn, nên chỉ nhận đăng ký những bạn thực sự mong muốn và cam kết tham gia trọn vẹn lịch trình. </span></p>
+                            <p>&nbsp;</p>
+                            <p><span style="color: #e67e23;"><strong><span>4. Chi phí: </span></strong></span></p>
+                            <p><span>Đón nhận sự yểm trợ tuỳ khả năng của các bạn và gia đình cho công tác tổ chức, yểm trợ các chi phí cơ bản để phục vụ cho khóa tu. </span></p>
+                            <p>&nbsp;</p>
+                            <p><span>Các bạn quan tâm đến khóa tu, vui lòng liên hệ để được thông tin chi tiết</span></p>
+                            <p>&nbsp;</p>
+                            <p><span>Trân kính và Biết ơn <img src="https://static.xx.fbcdn.net/images/emoji.php/v9/t1f/2/16/1f64f.png"></span></p>
+                            <p><span>---</span></p>
+                            <p><span>Thiền Như Chính Là Thiền, Việt Nam.</span></p>
+                            <p><span>Tịnh Viện Pháp Thường</span></p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="footer-content">
+                <img class = "img-footer" src = "../img/download.svg">
+                <p>&copy; 2024 TicKetBox. All rights reserved.</p>
+                <p>Vietnamese Order Ticket</p>
+                <p>Powered by HTML, CSS, Javascript.</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-content">
+                <p>Follow us:</p>
+                <p>Owner: Đỗ Nguyễn Minh Phương.</p>
+                <p>Hotline: 1900 0019.</p>
+                <p>Address: Số 24, đường Trần Duy Hưng, Cầu Giấy, Hà Nội.</p>
+            </div>
+        </div>
+        <div>
+            <img class ="img-footer1"src = "../img/download2.svg">
+        </div>
+    </footer>
+</body>
+</html>

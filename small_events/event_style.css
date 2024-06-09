@@ -204,7 +204,7 @@ html, body {
 }
 
 .banner-left #date-text, #venue-text {
-    color:#27ac29;
+    color:rgb(45, 194, 117);
     font-weight: bold;
     font-size: 15px;
 }
@@ -224,7 +224,7 @@ html, body {
 }
 
 .infoTicket #pay {
-    color: #27ac29;
+    color: rgb(45, 194, 117);
 }
 
 .Buy {
@@ -305,6 +305,7 @@ html, body {
 .img-footer1{
     height:40px;
 }
+
 .hidden {
     display: none;
 }

@@ -309,7 +309,7 @@ body{
     gap: 3%;
     overflow: hidden;
     margin-bottom: 3rem;
-    margin-left: 24px;
+    margin-left: 1.5%;
 }
 
 .slider-item {
@@ -322,25 +322,49 @@ body{
 .slider-item img {
     max-width: 100%;
     display: block;
-    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.trending a {
+    flex-shrink: 0; 
+    text-decoration: none;
 }
 
 .info {
     background-color: #686767;
     padding: 8px;
     border-radius: 0 0 8px 8px;
-    width: 95%;
+    width: 95.5%;
+    height: 100px;
+}
+
+.info .event-pay {
+    border: 0;
 }
 
 .info .event-ten h5 {
-    margin: 10px 0;
+    margin: 0;
     font-size: 16px;
     color: #fff;
 }
 
-.info .event-pay {
-    margin-top: 10px;
+.info .event-pay h5{
+    color: rgb(45, 194, 117);
+    font-size: 15px;
+    margin-bottom: 0;
 }
+
+.event-pay #date {
+    display: block;
+}
+
+.event-pay #date-text {
+    color: #eeecec;
+    font-size: 14px;
+    font-weight:400;
+}
+
 
 .button-sub {
     position: absolute;
@@ -383,7 +407,6 @@ body{
 #next {
     right: 0;
 }
-
 
 .footer {
     display: flex;

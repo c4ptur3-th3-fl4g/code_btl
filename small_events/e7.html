@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href='../img/logo.jpg'>
+    <link rel="stylesheet" href="event_style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="header">
+        <div class="left-div">
+            <img class="avt" src="../img/logo.jpg">
+            <img class="text-avt" src="../img/text_avt.svg">
+        </div>
+        <div class="right-div">
+            <div class="search-container">
+                <input type="text" class="search-box" placeholder="What are you looking for today ?">
+                <button class="search-button"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="auth-buttons">
+                <button class="btn login-btn" id = "loginBtn"onclick="location.href='../login.html'">Login</button>
+                <button class="btn register-btn" id = "registerBtn" onclick="location.href='../Register.html'">Register</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="ticket-container">
+            <div class="ticket-banner">
+                <div class="banner-left">
+                    <div id="circle" class="circle1"></div>
+                    <div id="circle" class="circle2"></div>
+                    <div class="dashed-line"></div>
+                    <div class="text">
+                        <h3>MuayThai Rampage x Road to One - ELIMINATION</h3>
+                        <p id="date">
+                            <svg width="16" height="16" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon">
+                                <path d="M4.333.333C4.702.333 5 .632 5 1v.667h4V1a.667.667 0 011.333 0v.667H11a2.667 2.667 0 012.667 2.667v1.333H.333V4.334A2.667 2.667 0 013 1.667h.667V1c0-.368.298-.667.666-.667zM13.667 7H.333v5.334c0 .736.597 1.333 1.334 1.333h10.666c.737 0 1.334-.597 1.334-1.333V7z" fill="#fff"></path>
+                            </svg>                
+                            <span id="date-text"> 18:00 - 22:00, 19 May, 2024</span>
+                        </p>
+                        <p>
+                            <svg width="18" height="20" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg" id="location-icon" class="icon"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.031 3.307a10.514 10.514 0 0113.937 0c4.485 3.945 4.955 10.854 1.058 15.392l-7.015 8.17a1.333 1.333 0 01-2.023 0l-7.015-8.17C-.923 14.161-.454 7.252 4.031 3.307zM11 14.667A3.333 3.333 0 1011 8a3.333 3.333 0 000 6.666z" fill="#fff"></path></svg>
+                            <span id="venue-text">Saigon Sports Club</span>
+                        </p>
+                        <p id="text-detail">514B Huỳnh Tấn Phát, Bình Thuận ward, Phường Bình Thuận, Quận 7, Thành Phố Hồ Chí Minh</p>
+                    </div>
+                    <div class="infoTicket">
+                        <p>From <span id="pay">300.000 đ</span></p>
+                        <button class="Buy">Book Now</button>
+                    </div>  
+                </div>
+                <div class="banner-right">
+                    <img id="event-pic" src="pic/e7.jpg" alt="event picture">
+                </div>
+            </div>
+        </div>
+        <div class="about-ticket">
+            <div class="information">
+                <div class="in4-detail">
+                    <h4>About</h4>
+                    <div class="event-in4"><p><strong>GIẢI ĐẤU MUAYTHAI RAMPAGE X ROAD TO ONE (MTR X RTO) LẦN ĐẦU TIÊN TẠI VIỆT NAM</strong></p>
+                        <p>Sự kiện võ thuật MuayThai Rampage đã chính thức quay trở lại, đặc kiệt kết hợp cùng Road To ONE: Việt Nam tổ chức chuỗi giải đấu MuayThai Rampage x Road To ONE (MTR x RTO) nhằm tìm kiếm những tài năng MuayThai mạnh nhất, tham gia thi đấu tại<strong> ONE Championship</strong>. Đây cũng là lần đầu tiên Road To ONE được chính thức tổ chức tại Việt Nam, mang đến suất thi đấu cho người thắng cuộc tại đấu trường lớn nhất thế giới này.</p>
+                        <p>Không chỉ là một đêm giao tranh giữa những võ sĩ mạnh nhất, MuayThai Rampage: Road To ONE chính là cánh cửa mở ra cơ hội chinh phục đỉnh cao MuayThai dành cho các võ sĩ. Trở thành người chiến thắng đồng nghĩa với việc nắm chắc hợp đồng thi đấu tại ONE Championship. Tấm vé này sẽ thuộc về ai?</p>
+                        <p>Vòng loại đầu tiên sẽ diễn ra vào ngày Chủ nhật, 19.05.2024 tại Saigon Sports Club.</p>
+                        <p>&nbsp;</p>
+                        <p>The MuayThai Rampage is officially back, specially combined with Road To ONE: Vietnam to organize the MuayThai Rampage x Road To ONE (MTR x RTO) tournament series, seeking the strongest MuayThai talents to compete in <strong>ONE Championship</strong>. This is also the first time Road To ONE is officially held in Vietnam, offering a chance for the winner to compete in this world's largest arena.</p>
+                        <p>MuayThai Rampage: Road To ONE isn't just another night of intense combat bringing together the fiercest fighters; it's the pathway to claiming the pinnacle of MuayThai glory. Victory ensures securing a contract to compete in ONE Championship. Who will emerge as the rightful owner of this golden opportunity?</p>
+                        <p>📍The elimination round will take place on Sunday, May 19, 2024, at Saigon Sports Club.</p>
+                        <p><img src="https://salt.tkbcdn.com/ts/ds/7b/be/23/52c3c815ffbf451ae7fea35668045ba2.jpg" alt="" width=100% height="2585"></p>
+                        <p>Nội quy sự kiện:</p>
+                        <p>Vé chỉ có giá trị cho một (1) người, không có giá trị vào cửa nhiều lần và không có giá trị đổi trả</p>
+                        <p>Sự kiện dành cho người tham dự trên 4 tuổi. Người tham dự từ 5 đến 12 tuổi phải có đi cùng người bảo hộ.</p>
+                        <p>Ban tổ chức (BTC) có quyền từ chối vào cửa nếu tình trạng vé bị hư hỏng, giả mạo hay sao chép.</p>
+                        <p>BTC có thể hủy sự kiện nếu xảy ra các trường hợp vượt ngoài tầm kiểm soát của chúng tôi bao gồm: chiến tranh, khủng bố, dịch bệnh hoặc các yếu tố thời tiết. Người tham dự&nbsp;sẽ không được hoàn tiền từ BTC.</p>
+                        <p>BTC sẽ không chịu trách nhiệm cho bất kỳ khoản bồi thường nào liên quan đến tính mạng, thương tật hoặc bất kỳ khoản bồi thường nào được quy định bởi pháp luật.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-column">
+            <div class="footer-content">
+                <img class = "img-footer" src = "../img/download.svg">
+                <p>&copy; 2024 TicKetBox. All rights reserved.</p>
+                <p>Vietnamese Order Ticket</p>
+                <p>Powered by HTML, CSS, Javascript.</p>
+            </div>
+        </div>
+        <div class="footer-column">
+            <div class="footer-content">
+                <p>Follow us:</p>
+                <p>Owner: Đỗ Nguyễn Minh Phương.</p>
+                <p>Hotline: 1900 0019.</p>
+                <p>Address: Số 24, đường Trần Duy Hưng, Cầu Giấy, Hà Nội.</p>
+            </div>
+        </div>
+        <div>
+            <img class ="img-footer1"src = "../img/download2.svg">
+        </div>
+    </footer>
+    <script src = "small_events.js"></script>
+</body>
+</html>

@@ -45,7 +45,6 @@ body {
 }
 
 .container {
-    background-image: url('../img/backparty.jpg');
     background-size: cover;
     background-position: 50% 60%;
 }

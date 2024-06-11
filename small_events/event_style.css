@@ -137,9 +137,10 @@ html, body {
     height: 24.5rem;
     margin: 10px;
     border-radius: 25px;
-    min-width: 50rem;
-    margin-left: 15%;
-    margin-right: 13%;
+    max-width: 1080px;
+    margin-left: 16%;
+    margin-right: 15%;
+    overflow: hidden;
 }
 
 @media (max-width: 1024px) {
@@ -190,7 +191,7 @@ html, body {
     position: absolute;
     top: 40px; 
     bottom: 40px; 
-    left: 35.6%;
+    left: 35.7%;
     width: 0;
     border-left: 3px dashed rgb(31, 30, 30);;
     transform: translateX(-50%);
@@ -198,7 +199,7 @@ html, body {
 }
 
 .banner-left {
-    width: 22rem;
+    width: 50.5%;
     margin: 1rem;   
 }
 
@@ -216,7 +217,7 @@ html, body {
 }
 
 .infoTicket {
-    margin-top: 80px;
+    margin-top: 18%;
     font-size: 18px;
     font-weight: bold;
     border-top: 1px solid whitesmoke;
@@ -242,6 +243,9 @@ html, body {
     color: #000;
 }
 
+.banner-right {
+    width: 100%;
+}
 
 .banner-right #event-pic {
     width: 100%;
@@ -259,13 +263,13 @@ html, body {
 }
 
 .information {
-    margin: 20px;
+    margin-top: 20px;
     border-radius: 10px;
-    width: 80%;
-    max-width: 65rem;
+    margin-left: 10px;
+    max-width: 66rem;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
-    padding: 20px;
+
 }
 
 .in4-detail {

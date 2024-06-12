@@ -18,10 +18,11 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .left-div {
-    margin-left: 15%;
+    
     display: flex;
 }
 
@@ -50,7 +51,7 @@ html, body {
 }
 
 .right-div {
-    margin-right: 13%;
+    
     display: flex;
 }
 
@@ -123,7 +124,7 @@ html, body {
     padding-inline: 1rem;
     background: linear-gradient(rgb(39, 39, 42) 48.04%, rgb(0, 0, 0) 100%);
     color: rgb(255, 255, 255);
-    height: 26rem;
+    height: 27rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,10 +135,10 @@ html, body {
     display: flex;
     justify-content: space-between;
     position: relative;
-    height: 24.5rem;
+    height: 26rem;
     margin: 10px;
     border-radius: 25px;
-    max-width: 1080px;
+    min-width: 1200px;
     margin-left: 16%;
     margin-right: 15%;
     overflow: hidden;
@@ -170,11 +171,11 @@ html, body {
 
 
 #circle {
-    width: 80px;
-    height: 80px;
+    width: 75px;
+    height: 75px;
     border-radius: 50%;
     position: absolute;
-    margin-left: 30%;
+    margin-left: 30.9%;
 }
 
 .circle1 {
@@ -191,9 +192,9 @@ html, body {
     position: absolute;
     top: 40px; 
     bottom: 40px; 
-    left: 35.7%;
+    left: 35.3%;
     width: 0;
-    border-left: 3px dashed rgb(31, 30, 30);;
+    border-left: 4px dashed rgb(31, 30, 30);;
     transform: translateX(-50%);
     z-index: 0; 
 }
@@ -217,7 +218,7 @@ html, body {
 }
 
 .infoTicket {
-    margin-top: 18%;
+    margin-top: 20%;
     font-size: 18px;
     font-weight: bold;
     border-top: 1px solid whitesmoke;
@@ -232,7 +233,7 @@ html, body {
     background-color: rgb(45, 194, 117);
     color: #fff;
     font-weight: bold;
-    width: 91%;
+    width: 100%;
     padding-block: 0.5rem;
     border-radius: 0.25rem;
     transition: background-color 0.5s ease;
@@ -263,10 +264,11 @@ html, body {
 }
 
 .information {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     border-radius: 10px;
     margin-left: 10px;
-    max-width: 66rem;
+    max-width: 75rem;
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
 
